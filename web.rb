@@ -1,8 +1,15 @@
 class Web < Sinatra::Base
+	register Sinatra::Partial
 
-  get '/' do
-    'Hello world'
-  end
+
+set :haml, :format => :html5
+
+get "/" do
+haml :index
+end
+
+
+
 
 end
 

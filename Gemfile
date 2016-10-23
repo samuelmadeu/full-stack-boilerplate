@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.3.0"
+ruby "2.3.1"
 
 gem 'sinatra'
 gem 'grape'
@@ -16,6 +16,11 @@ gem 'rerun'
 gem 'dotenv'
 gem 'money'
 gem 'gibberish'
+
+gem 'bourbon'
+gem 'neat'
+gem 'haml'
+gem 'sinatra-partial'
 
 
 group :test do

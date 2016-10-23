@@ -1,0 +1,14 @@
+.body {
+  color: red; }
+  .body p {
+    text-align: middle; }
+
+p.bottom {
+  color: blue; }
+
+.middle {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 20px 20px; }
+
+/*# sourceMappingURL=styles.css.map */
